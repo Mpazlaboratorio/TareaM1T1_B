@@ -25,3 +25,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Launch tests with Maven
       run:  mvn test
+     # Build and push docker
+    - name: Build and Push Docker
+      run: |
+          docker build -t samply .  
