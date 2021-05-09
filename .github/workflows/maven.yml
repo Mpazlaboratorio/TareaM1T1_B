@@ -28,4 +28,4 @@ jobs:
      # Build and push docker
     - name: Build and Push Docker
       run: |
-          docker build -t Springboot/saludar .  
+          docker build -t saludar .  
